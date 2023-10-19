@@ -320,7 +320,7 @@ h3.hello
     font-size: 28px;
     margin: 15px 0;
 }
-h3.hello span
+h3.hello span 
 {
     font-family: 'Clicker Script', cursive;
     font-size: 30px;
@@ -661,18 +661,44 @@ h3.profession
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+
+
 .portfolio .portfolio-item-inner
 {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    width: 100%;
+
 }
 .portfolio .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
     display: block;
 }
+/*  moi */
+.content{
+    position: absolute;
+    display: none;
+    max-width: 30%;
+    margin: -6px -5px ;
+    margin-bottom: 30px;
+    height: 186px;
+    border-radius: 10px;
+    background-color: rgba(242, 242, 252, 0.7);
+    color: rgb(12, 147, 249);
+}
+.content::before{
+    content: "";
+    display: block;
+    position: absolute;
+}
+.portfolio-has-content:hover .content{
+    display: block;
+}
+/* het moi  */
+
 /* contact */
 .contact-title
 {
