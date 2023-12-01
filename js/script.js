@@ -1,6 +1,6 @@
 /*=============================== typing animation ===============================*/
 var typed =new Typed(".typing",{
-    strings: ["","Web Designer","Web Developer","Graphic Designer",],
+    strings: ["",  "international student",],
     typeSpeed:100,
     BackSpeed:70,
     loop:true
@@ -39,7 +39,7 @@ const nav = document.querySelector(".nav"),
         for(let i=0; i<totalSection; i++)
         {
             allSection[i].classList.remove("back-section");
-        }
+        }   
     }
     function addBackSection(num)
     {
