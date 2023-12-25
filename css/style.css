@@ -697,6 +697,14 @@ h3.profession
 .portfolio-has-content:hover .content{
     display: block;
 }
+
+a {
+    /* color: blue;  */
+    text-decoration: none; 
+  }
+  a:hover {
+    color: red; 
+  }
 /* het moi  */
 
 /* contact */
